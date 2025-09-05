@@ -10,29 +10,52 @@
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awusome cdn -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="max-w-[1920px]">
     <!-- nav section -->
-    <div class="h-[100px] max-w-[1920px]">
-        <div>
-            <img src="./assets/logo.png" alt="">
-            <h1>Emergency Service</h1>
+    <div class=" flex justify-between min-h-[100px]">
+        <div class="flex  justify-center items-center gap-[10px] p-5">
+            <img class="h-[50px] w-[50px]" src="./assets/logo.png" alt="">
+            <h1 class="font-bold text-[#006747]">Emergency <br> Service</h1>
 
         </div>
-        <div>
-            <span>0</span> <i class="fa-solid fa-heart border-2 border-red-500 h-[52px] rounded-lg"></i>
+        <div class=" flex justify-center items-center gap-[20px] mr-5">
+            <div
+                class="flex flex-row items-center w-[123px] h-[52px] gap-[12px] bg-[#41ff6b1a]  justify-center rounded-2xl">
+                <span class="mt-0.5 text-gray-700  font-bold">0</span>
+                <img src="./assets/heart.png" alt="Heart" class="w-12 h-12" />
+
+
+            </div>
+            <div
+                class="flex flex-row items-center w-[123px] h-[52px] gap-[12px] bg-[#41ff6b1a] justify-center rounded-2xl">
+                <span class="mt-0.5 text-gray-700 font-bold ">100</span>
+                <img src="./assets/coin.png" alt="Coin" class="w-12 h-12" />
+
+
+            </div>
+            <div>
+                <button class="btn btn-success">2 copy</button>
+            </div>
 
         </div>
 
     </div>
+    <!-- emergency service directory div -->
+    <div class="h-[250px]  mx-auto flex flex-col justify-center items-center p-6 bg-gradient-to-r from-[#013223] to-[#006747] gap-5">
+        <img class="w-auto h-[60px] " src="./assets/logo-dark.png" alt="">
+        <h1 class="font-bold text-white text-2xl">Emergency Service Directory</h1>
+        <p class="text-white">Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
+            Bangladesh</p>
+    </div>
 
 
 
-     <!-- js index -->
+    <!-- js index -->
     <script src="./js/index.js"></script>
 
 </body>
