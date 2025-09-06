@@ -39,7 +39,7 @@
 
             </div>
             <div>
-                <button class="btn btn-success">2 copy</button>
+                <button class="btn btn-success" id="total-copy-count">0 copy</button>
             </div>
 
         </div>
@@ -70,7 +70,7 @@
                 <span class="bg-gray-100 text-sm px-3 py-1 rounded-full w-fit">All</span>
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] justify-center">
+                        class=" card-copy-btn flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] justify-center">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -98,7 +98,7 @@
 
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
+                        class=" card-copy-btn flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -125,7 +125,7 @@
 
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
+                        class=" card-copy-btn flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -150,7 +150,7 @@
 
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
+                        class=" card-copy-btn flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -176,7 +176,7 @@
 
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
+                        class=" card-copy-btn flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -202,7 +202,7 @@
 
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
+                        class=" card-copy-btn flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -228,7 +228,7 @@
 
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
+                        class=" card-copy-btn flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -254,7 +254,7 @@
 
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
+                        class=" card-copy-btn flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -280,7 +280,7 @@
 
                 <div class="flex justify-between items-center mt-4 gap-4">
                     <button
-                        class="flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
+                        class=" card-copy-btn flex items-center justify-center gap-2 border border-gray-300 rounded-lg px-4 py-2 text-gray-600 hover:bg-gray-100 h-[40px] w-[180px] ">
                         <i class="fa-regular fa-copy"></i> Copy
                     </button>
                     <button
@@ -298,10 +298,12 @@
         <div class="h-[1140px] w-[400px] bg-white p-[24px] mt-10 mb-10 mr-8 rounded-xl">
             <div class="flex justify-between items-center mb-4">
                 <p class="font-bold">Call History</p>
-                <button class="btn btn-success">Clear</button>
+                <button class="btn btn-success" id="clear-history">Clear</button>
             </div>
-            <div class="call-history"></div> <!-- new container for history entries -->
+            <div class="call-history"></div>
         </div>
+
+
 
     </div>
 
